@@ -1,6 +1,6 @@
 .idea/
 out/
-Demo.iml
+*.iml
 lib/kotlin-stdlib.jar
 lib/kotlin-reflect.jar
 lib/kotlin-test.jar
