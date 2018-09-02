@@ -1,7 +1,11 @@
 package algorithm;
 
+/**
+ * 快速排序
+ */
 public class QuickSort {
     public static void main(String[] args) {
+        //测试数据
         int[] arr = {9, 5, 7, 8, 2, 4, 3, 0, 1, 5, 8, 2, 6, 4, 11, 4};
         for (int i : arr) {
             System.out.print(i + ",");
@@ -13,8 +17,17 @@ public class QuickSort {
         }
     }
 
+
+    /**
+     * 快速排序
+     *
+     * @param arr   数组
+     * @param left  起始下标
+     * @param right 结束下标
+     */
     private static void quickSort(int[] arr, int left, int right) {
         System.out.println("quickSort left:" + left + " right:" + right);
+
         if (left >= right) {
             return;
         }
