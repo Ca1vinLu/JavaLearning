@@ -1,4 +1,4 @@
-package static_test;
+package statictest;
 
 public class SuperClass {
     public static User user = new User();

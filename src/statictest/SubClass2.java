@@ -1,4 +1,4 @@
-package static_test;
+package statictest;
 
 public class SubClass2 extends SuperClass {
 
