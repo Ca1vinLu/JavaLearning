@@ -1,9 +1,9 @@
-package algorithm;
+package swortoffer;
 
 /**
  * 剑指Offer面试题4
  */
-public class Offer4 {
+public class Issue4 {
     public static void main(String[] args) {
 
         int[][] matrix = {{1, 2, 8, 9},
