@@ -1,3 +1,5 @@
+package other;
+
 public class LoadClassTest {
 
     static {
@@ -15,7 +17,6 @@ public class LoadClassTest {
         LoadClassTest outer = new LoadClassTest();
         System.out.println("-------------------------");
         InnerClass innerClass = new InnerClass();
-
     }
 
 }

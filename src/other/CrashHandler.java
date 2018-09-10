@@ -1,3 +1,5 @@
+package other;
+
 public class CrashHandler implements Thread.UncaughtExceptionHandler {
 
     @Override
