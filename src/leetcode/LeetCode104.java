@@ -3,6 +3,10 @@ package leetcode;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+
+/**
+ * 二叉树的最大深度
+ */
 public class LeetCode104 {
 
     public class TreeNode {

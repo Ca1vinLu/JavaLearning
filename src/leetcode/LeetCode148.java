@@ -1,5 +1,8 @@
 package leetcode;
 
+/**
+ * 排序链表
+ */
 public class LeetCode148 {
 
     public class ListNode {

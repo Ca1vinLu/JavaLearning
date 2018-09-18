@@ -1,5 +1,8 @@
 package leetcode;
 
+/**
+ * 两个排序数组的中位数
+ */
 public class LeetCode4 {
     public static void main(String[] args) {
 

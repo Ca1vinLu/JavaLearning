@@ -1,5 +1,9 @@
 package leetcode;
 
+
+/**
+ * 最长公共前缀
+ */
 public class LeetCode14 {
     public static void main(String[] args) {
         System.out.println(longestCommonPrefix(new String[0]));
