@@ -30,7 +30,7 @@ public class ProxyTest {
         public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
             Object result = null;
             System.out.println("call by proxy before");
-            System.out.println("paint blue");
+            System.out.println("Paint Blue");
             result = method.invoke(paint, args);
             System.out.println("call by proxy after");
 
@@ -40,8 +40,11 @@ public class ProxyTest {
 
     public static void main(String[] args) {
         Paint redPaint = new RedPaint();
+        System.out.println(redPaint.getClass());
         Paint proxyPaint = (Paint) Proxy.newProxyInstance(Paint.class.getClassLoader(), new Class[]{Paint.class}, new ProxyBluePaint(redPaint));
+        System.out.println(proxyPaint.getClass());
+        proxyPaint = (Paint) Proxy.newProxyInstance(Paint.class.getClassLoader(), new Class[]{Paint.class}, new ProxyBluePaint(redPaint));
+        System.out.println(proxyPaint.getClass());
         proxyPaint.paint();
-
     }
 }
